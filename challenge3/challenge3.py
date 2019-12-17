@@ -9,47 +9,36 @@ class challenge3(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome("../chromedriver.exe")
+        self.driver.get("https://www.copart.com/")
+        # print(self.driver.title)
+        self.assertIn("Copart", self.driver.title)
 
     def tearDown(self):
         self.driver.close()
 
     def test_challenge3_forloop(self):
-        self.driver.get("https://www.copart.com/")
-        # print(self.driver.title)
-        self.assertIn("Copart", self.driver.title)
-        datawait = WebDriverWait(self.driver, 10)
-        datawait.until(ec.visibility_of_element_located((By.XPATH, "//*[@id='tabTrending']")))
-        makesmodels = self.driver.find_element(By.XPATH, "//*[@id='tabTrending']/div[1]/div[2]")
-        print(makesmodels.text)
-        elements = self.driver.find_elements(By.XPATH, "//*[@id='tabTrending']/div[1]/div[2]//a")
-        # fruits = ["apple", "banana", "cherry"]
-        elements[0].text
-        for x in elements:
-            print(x)
-        # html = self.driver.page_source
-        # print(html)
+        # datawait = WebDriverWait(self.driver, 10)
+        # datawait.until(ec.visibility_of_element_located((By.XPATH, "//*[@id='tabTrending']")))
+        # makesmodels = self.driver.find_element(By.XPATH, "//*[@id='tabTrending']/div[1]/div[2]")
+        # print(makesmodels.text)
+        elements = self.driver.find_elements(By.XPATH, "//*[@id=\"tabTrending\"]/div[1]//a")
+        print(len(elements))
+        # elements[0].text
+        # x = "apple"
+        # y = "banana"
+        # z = "cherry"
+        # fruits = [x, y, z]
+        for count in elements:
+            print(count.text + " - " + count.get_attribute("href"))
 
-    # def test_challenge3_whileloop(self):
-    #     self.driver.get("https://www.copart.com/")
-    #     print(self.driver.title)
-    #     self.assertIn("Copart", self.driver.title)
-    #     # self.driver.find_element(By.ID, "input-search").click()
-    #     # self.driver.find_element(By.ID, "input-search").send_keys("exotics")
-    #     # self.driver.find_element(By.ID, "input-search").send_keys(Keys.ENTER)
-    #     # html = self.driver.page_source
-    #     # print(html)
-    #     # element = self.driver.find_element(By.XPATH, "//*[@name=\"q\"]")
-    #     element = self.driver.find_element(By.ID, "input-search")
-    #     element.send_keys("exotics")
-    #     searchBtn = self.driver.find_element(By.XPATH, "//button[@data-uname='homepageHeadersearchsubmit']")
-    #     searchBtn.click()
-    #     html = self.driver.page_source
-    #     print(html)
-    #     datawait = WebDriverWait(self.driver, 10)
-    #     datawait.until(ec.visibility_of_element_located((By.XPATH, "//*[@id=\"serverSideDataTable\"]//td")))
-    #     datatable = self.driver.find_element(By.XPATH, "//*[@id=\"serverSideDataTable\"]")
-    #     print(datatable.text)
-    #     self.assertIn("PORSCHE", datatable.text)
+    def test_challenge3_whileloop(self):
+        # elements = self.driver.find_elements(By.XPATH, "//*[@id=\"tabTrending\"]/div[1]//a")
+        elements = self.driver.find_elements(By.XPATH, "//*[@ng-if=\"tabTrending\"]/div[1]//a")
+        print(len(elements))
+        i = 0
+        while i < len(elements):
+            print(elements[i].text + " - " + elements[i].get_attribute("href"))
+            i += 1
 
 if __name__ == '__main__':
     unittest.main()

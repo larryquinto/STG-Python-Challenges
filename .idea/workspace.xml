@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53796c07-f606-449f-9c7d-55fe3b1ebb3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bonus/SlingChannelImages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bonus/SlingSearch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bonus/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge4/ConvertToString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge4/Fibonacci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge3/challenge3.py" beforeDir="false" afterPath="$PROJECT_DIR$/challenge3/challenge3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,18 +44,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for challenge3.challenge3">
-    <configuration name="Unittests for challenge2.challenge2.test_challenge2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for SlingChannelImages.slingchannelimages">
+    <configuration name="Unittests for SlingChannelImages.slingchannelimages" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bonus" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;challenge2.challenge2.test_challenge2&quot;" />
+      <option name="_new_target" value="&quot;SlingChannelImages.slingchannelimages&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for SlingChannelImages.slingchannelimages.test_slingchannelimages_forloop" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="challenges" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bonus" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;SlingChannelImages.slingchannelimages.test_slingchannelimages_forloop&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -81,41 +101,27 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in challenge2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in challenge3.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="challenges" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/challenge2&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in challenge2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="challenges" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/challenge2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/challenge2/challenge2.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/challenge3/challenge3.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for challenge3.challenge3" />
+        <item itemvalue="Python tests.Unittests for SlingChannelImages.slingchannelimages" />
+        <item itemvalue="Python tests.Unittests for SlingChannelImages.slingchannelimages.test_slingchannelimages_forloop" />
+        <item itemvalue="Python tests.Unittests in challenge3.py" />
         <item itemvalue="Python tests.Unittests for challenge3.challenge3.test_challenge3_forloop" />
-        <item itemvalue="Python tests.Unittests for challenge2.challenge2.test_challenge2" />
-        <item itemvalue="Python tests.Unittests in challenge2.py" />
-        <item itemvalue="Python tests.Unittests in challenge2" />
+        <item itemvalue="Python tests.Unittests for challenge3.challenge3" />
       </list>
     </recent_temporary>
   </component>
@@ -144,16 +150,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/challenge3/challenge3.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
